@@ -1,2 +1,4 @@
 .venv/
 cli.py
+.idea/
+.vscode/

@@ -1,38 +1,21 @@
 # Игра калькулятор
 
-import prompt
-import random
-import operator
-
-# print('What is the result of the expression?')
-
-operator = ['+', '-', '*']
-operator_random = random.choice(operator)
-
-num_1 = random.randint (1, 100)
-num_2 = random.randint (1, 100)
-
-answer = f'{num_1} {operator_random} {num_2}'
-
-def expression():
-    index = 0
-    win_score = 3
-    congrats = f'Congratulations, {name}'
-    while index < win_score:
-        operator = ['+', '-', '*']
-        operator_random = random.choice(operator)
-        num_1 = random.randint (1, 100)
-        num_2 = random.randint (1, 100)
-        answer = f'{num_1} {operator_random} {num_2}'
-        print('Question:', answer)
-        index += 1
-        user_answer = prompt.string('Your answer: ')
-    print(congrats)
+from random import randint, choice
 
 
-expression()
+print('What is the result of the expression?')
 
 
-
-
-# в игред должен быть вопрос игры и правильный ответ
+def game_function():
+    result = 0
+    num_1 = randint(1, 99)
+    num_2 = randint(1, 99)
+    random_operator = choice('+-*')
+    if random_operator == '+':
+        result = num_1 + num_2
+    elif random_operator == '-':
+        result = num_1 - num_2
+    elif random_operator == '*':
+        result = num_1 * num_2
+    question = str(f'Question: {num_1} {random_operator} {num_2}')
+    return str(result), question

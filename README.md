@@ -9,3 +9,5 @@ src="https://api.codeclimate.com/v1/badges/05d8e8d17fd939dcb151/maintainability"
 ### Запись аскинемы
 ### Игра проверка чётности
 https://asciinema.org/a/p7dGZKvJVWR4qNYkbL8Aoror5
+### Игра калькулятор
+https://asciinema.org/a/2FaPsJfoCQ9zZoQHDYHo3P5O3

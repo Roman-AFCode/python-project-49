@@ -1,7 +1,7 @@
 install:
 	poetry install
 
-brain_even:
+brain-even:
 	poetry run brain-even
 
 build:

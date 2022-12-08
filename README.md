@@ -13,3 +13,5 @@ https://asciinema.org/a/p7dGZKvJVWR4qNYkbL8Aoror5
 https://asciinema.org/a/2FaPsJfoCQ9zZoQHDYHo3P5O3
 ### Игра наибольший общий делитель (НОД)
 https://asciinema.org/a/qhlkoEkXRoNFQWx7bFpueKimy
+### Игра арифметическая прогрессия
+https://asciinema.org/a/yzIAodyKMecbyJv95k4O3mxGs

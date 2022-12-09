@@ -18,7 +18,8 @@ def result_check(game):
         print(question)
         answer = prompt.string('Your answer: ')
         if answer != result:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{result}'.\
+            print(f"'{answer}' is wrong answer ;(., "
+                  f"Correct answer was '{result}'.\
                     \nLet's try again, {name}!")
             break
         elif answer == result:

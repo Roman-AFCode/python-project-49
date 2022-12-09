@@ -11,11 +11,11 @@ def game_function():
     num_1 = randint(1, 99)
     num_2 = randint(1, 99)
     random_operator = choice('+-*')
+    question = str(f'Question: {num_1} {random_operator} {num_2}')
     if random_operator == '+':
         result = num_1 + num_2
     elif random_operator == '-':
         result = num_1 - num_2
     elif random_operator == '*':
         result = num_1 * num_2
-    question = str(f'Question: {num_1} {random_operator} {num_2}')
     return str(result), question

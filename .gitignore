@@ -1,6 +1,13 @@
-.venv/
-cli.py
 .idea/
 .vscode/
 .DS_Store
-draft.txt
+
+*.egg-info
+__pycache__
+dist/
+*.pyc
+.venv/
+.coverage
+coverage.xml
+.pytest_cache/
+.vim

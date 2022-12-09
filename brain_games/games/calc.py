@@ -1,5 +1,4 @@
 # Игра калькулятор
-
 from random import randint, choice
 
 

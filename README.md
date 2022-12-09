@@ -5,7 +5,21 @@
 <a href="https://codeclimate.com/github/Roman-AFCode/python-project-49/maintainability"><img
 src="https://api.codeclimate.com/v1/badges/05d8e8d17fd939dcb151/maintainability"
 /></a>
+---
+# Проект игры разума
+Вам предстоит пройти испытания на знания математики.
+Вас ждут 5 увлекательных игр.
+- Проверка чётности
+- Калькулятор
+- Наибольший общий делитель (НОД)
+- Арифметическая прогрессия
+- Простое ли число?
 
+Пройдите все игры и получите приз!
++ в карму =)
+---
+
+---
 ### Запись аскинемы
 ### Игра проверка чётности
 https://asciinema.org/a/p7dGZKvJVWR4qNYkbL8Aoror5

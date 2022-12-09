@@ -1,5 +1,4 @@
 # игра наибольший общий делитель
-
 from random import randint
 
 

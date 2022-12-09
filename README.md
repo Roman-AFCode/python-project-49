@@ -15,3 +15,5 @@ https://asciinema.org/a/2FaPsJfoCQ9zZoQHDYHo3P5O3
 https://asciinema.org/a/qhlkoEkXRoNFQWx7bFpueKimy
 ### Игра арифметическая прогрессия
 https://asciinema.org/a/yzIAodyKMecbyJv95k4O3mxGs
+### Игра простое ли число?
+https://asciinema.org/a/0X5vg83YE8qkvqn8R1anKwyhb

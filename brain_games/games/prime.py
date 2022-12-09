@@ -12,7 +12,6 @@ def game_function():
         for i in range(2, random_number):
             if (random_number % i) == 0:
                 result = 'no'
-                break
             else:
                 result = 'yes'
     else:

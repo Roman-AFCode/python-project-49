@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.0"
+version = "1.0.0"
 description = "You will have to pass the test of knowledge of mathematics. Five exciting games await you."
 authors = ["Roman Ko <roman_ko@gmail.com>"]
 readme = "README.md"

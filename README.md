@@ -28,6 +28,6 @@ https://asciinema.org/a/2FaPsJfoCQ9zZoQHDYHo3P5O3
 ### Игра наибольший общий делитель (НОД)
 https://asciinema.org/a/qhlkoEkXRoNFQWx7bFpueKimy
 ### Игра арифметическая прогрессия
-https://asciinema.org/a/yzIAodyKMecbyJv95k4O3mxGs
+https://asciinema.org/a/ktqYtGrNZ9aBNmVUIfZjTV6J0
 ### Игра простое ли число?
 https://asciinema.org/a/0X5vg83YE8qkvqn8R1anKwyhb

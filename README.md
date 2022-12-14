@@ -17,6 +17,13 @@ src="https://api.codeclimate.com/v1/badges/05d8e8d17fd939dcb151/maintainability"
 - poetry = "^1.2.2"
 - prompt = "^0.4.1"
 ---
+**Сборка проекта, команды makefile**
+1. make build - сборка
+2. make publish - отладка
+3. make package-install - установите пакет в систему
+4. pip uninstall hexlet-code - удаление проекта
+
+---
 **Для запуска игр нужно использовать команды указанные ниже:**
 - make brain-games-run - запускает все игры по очереди
 

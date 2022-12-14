@@ -1,8 +1,12 @@
 install:
 	poetry install
 
-brain-even:
+brain-games-run:
 	poetry run brain-even
+	poetry run brain-calc
+	poetry run brain-gcd
+	poetry run brain-progression
+	poetry run brain-prime
 
 build:
 	poetry build

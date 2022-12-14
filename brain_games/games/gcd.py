@@ -1,16 +1,14 @@
 # игра наибольший общий делитель
 from random import randint
+from math import gcd
 
 
-print('Find the greatest common divisor of given numbers.')
+GAME_RULES = 'Find the greatest common divisor of given numbers.'
 
 
-def game_function():
-    result = 0
+def get_game_result():
     num_1 = randint(1, 100)
     num_2 = randint(1, 100)
     question = str(f'Question: {num_1} {num_2}')
-    while num_2 > 0:
-        num_1, num_2 = num_2, num_1 % num_2
-        result = num_1
+    result = gcd(num_1, num_2)
     return str(result), question

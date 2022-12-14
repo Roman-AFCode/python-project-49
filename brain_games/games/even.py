@@ -2,7 +2,7 @@
 from random import randint
 
 
-GAME_RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+GAME_RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(num):
@@ -15,8 +15,8 @@ def is_even(num):
 def get_game_result():
     random_num = randint(1, 99)
     question = str(f'Question: {random_num}')
-    if is_even(random_num) is True:
+    if is_even(random_num):
         result = 'yes'
-    if is_even(random_num) is False:
+    else:
         result = 'no'
     return result, question

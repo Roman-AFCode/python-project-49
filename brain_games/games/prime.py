@@ -2,15 +2,15 @@
 from random import randint
 
 
-GAME_RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+GAME_RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):
     counter = 0
     for i in range(2, num // 2 + 1):
-        if (num % i == 0):
+        if num % i == 0:
             counter += 1
-    if (counter <= 0):
+    if counter <= 0:
         return True
     else:
         return False
@@ -19,8 +19,8 @@ def is_prime(num):
 def get_game_result():
     random_num = randint(1, 99)
     question = str(f'Question: {random_num}')
-    if is_prime(random_num) is True:
+    if is_prime(random_num):
         result = 'yes'
-    if is_prime(random_num) is False:
+    else:
         result = 'no'
     return result, question

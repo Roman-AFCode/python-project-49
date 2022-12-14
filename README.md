@@ -7,27 +7,34 @@ src="https://api.codeclimate.com/v1/badges/05d8e8d17fd939dcb151/maintainability"
 /></a>
 ---
 # Проект игры разума
-Вам предстоит пройти испытания на знания математики.
-Вас ждут 5 увлекательных игр.
-- Проверка чётности
-- Калькулятор
-- Наибольший общий делитель (НОД)
-- Арифметическая прогрессия
-- Простое ли число?
+Вам предстоит пройти 5 игр на знания математики.
 
 Пройдите все игры и получите приз!
 - плюс в карму =)
+---
+**Для работы программы вам понадобятся вессии указанные ниже:**
+- python = "^3.10"
+- poetry = "^1.2.2"
+- prompt = "^0.4.1"
+---
+**Для запуска игр нужно использовать команды указанные ниже:**
+- make brain-games-run - запускает все игры по очереди
 
-
+Так же можно запустить каждую игру отдельно:
+- brain-even - проверка на чётность
+- brain-calc - калькулятор
+- brain-gcd - наибольший общий делитель (НОД)
+- brain-progression - арифметическая прогрессия
+- brain-prime - простое ли число?
 ---
 ### Запись аскинемы
 ### Игра проверка чётности
-https://asciinema.org/a/p7dGZKvJVWR4qNYkbL8Aoror5
+[![asciicast](https://asciinema.org/a/vVl0vwd8TnMW6EXBgguBS4rfY.svg)](https://asciinema.org/a/vVl0vwd8TnMW6EXBgguBS4rfY)
 ### Игра калькулятор
-https://asciinema.org/a/2FaPsJfoCQ9zZoQHDYHo3P5O3
+[![asciicast](https://asciinema.org/a/kcv6sOol34FwVb7fHCbSbOvlx.svg)](https://asciinema.org/a/kcv6sOol34FwVb7fHCbSbOvlx)
 ### Игра наибольший общий делитель (НОД)
-https://asciinema.org/a/qhlkoEkXRoNFQWx7bFpueKimy
+[![asciicast](https://asciinema.org/a/Ov4CasWYDOlTy15ZiFSFg2uoc.svg)](https://asciinema.org/a/Ov4CasWYDOlTy15ZiFSFg2uoc)
 ### Игра арифметическая прогрессия
-https://asciinema.org/a/ktqYtGrNZ9aBNmVUIfZjTV6J0
+[![asciicast](https://asciinema.org/a/NbJDySBt6VcnIvDeGLdNu6aLt.svg)](https://asciinema.org/a/NbJDySBt6VcnIvDeGLdNu6aLt)
 ### Игра простое ли число?
-https://asciinema.org/a/0X5vg83YE8qkvqn8R1anKwyhb
+[![asciicast](https://asciinema.org/a/HSNLsvDPR4MQzT3h4enrb11Oi.svg)](https://asciinema.org/a/HSNLsvDPR4MQzT3h4enrb11Oi)

@@ -12,7 +12,7 @@ def is_even(num):
         return False
 
 
-def get_game_result():
+def get_game():
     random_num = randint(1, 99)
     question = str(f'Question: {random_num}')
     if is_even(random_num):

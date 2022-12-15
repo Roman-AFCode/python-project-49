@@ -11,11 +11,11 @@ def calculate_expression(num_1, num_2):
         return num_1 + num_2
     elif OPERATORS == '-':
         return num_1 - num_2
-    elif OPERATORS == '*':
+    else:
         return num_1 * num_2
 
 
-def get_game_result():
+def get_game():
     random_num_1 = randint(1, 99)
     random_num_2 = randint(1, 99)
     question = str(f'Question: {random_num_1} {OPERATORS} {random_num_2}')

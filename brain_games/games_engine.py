@@ -9,14 +9,14 @@ def start_game(game):
     print(game.GAME_RULE)
     counter = 0
     while counter != 3:
-        result, question = game.get_game_result()
+        result, question = game.get_game()
         print(question)
         answer = prompt.string('Your answer: ')
         if answer != result:
             return print(f"'{answer}' is wrong answer ;(., "
                          f"Correct answer was '{result}'.\
                            \nLet's try again, {name}!")
-        elif answer == result:
+        else:
             print('Correct!')
             counter += 1
     print(f'Congratulations, {name}!')

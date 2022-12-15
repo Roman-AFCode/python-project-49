@@ -12,7 +12,7 @@ def progression_generation():
     return lst
 
 
-def get_game_result():
+def get_game():
     lst = progression_generation()
     random_integer = randint(0, len(lst) - 1)
     result = (lst[random_integer])

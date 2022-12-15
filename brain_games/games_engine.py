@@ -13,9 +13,10 @@ def start_game(game):
         print(question)
         answer = prompt.string('Your answer: ')
         if answer != result:
-            return print(f"'{answer}' is wrong answer ;(., "
-                         f"Correct answer was '{result}'.\
-                           \nLet's try again, {name}!")
+            print(f"'{answer}' is wrong answer ;(., "
+                  f"Correct answer was '{result}'.\
+                    \nLet's try again, {name}!")
+            return
         else:
             print('Correct!')
             counter += 1
